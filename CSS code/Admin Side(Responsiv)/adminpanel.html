@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="adminstyle.css">
+    <title>Admin Panel</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#"">
+                        <span class="icon"><img src="icon/cromat.png" height="50vh"></span>
+                        <span class="title"><h2>Cromat</h2></spna>
+                    </a>    
+                </li>
+                <li>
+                    <a href="#"">
+                        <span class="icon"><img src="icon/home.png" height="17vh"></span>
+                        <span class="title">Dashboard</spna>
+                        </a>
+                </li>
+                <li>
+                    <a href="#"">
+                        <span class="icon"><img src="icon/cst.png" height="17vh"></span>
+                        <span class="title">Customers</spna>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"">
+                        <span class="icon"><img src="icon/me.ico" height="17vh"></span>
+                        <span class="title">Message</spna>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"">
+                        <span class="icon"><img src="icon/help.png" height="17vh"></span>
+                        <span class="title">Help</spna>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"">
+                        <span class="icon"><img src="icon/setting.png" height="17vh"></span>
+                        <span class="title">Settings</spna>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"">
+                        <span class="icon"><img src="icon/pass.png" height="17vh"></span>
+                        <span class="title">Password</spna>
+                    </a>                        
+                </li>
+                <li>
+                    <a href="#"">
+                        <span class="icon"><img src="icon/signout.png" height="17vh"></span>
+                        <span class="title">Sign Out</spna>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle" onclick="toggleMenu();"></div>
+                <div class="search">
+                    <label>
+                        <img   src="icon/search.png">
+                        <input type="text"
+                        placeholder="Search hear">
+                    </label>
+                    
+                </div>
+                <div class="user">
+                    <img src="icon/user.JPG">
+                </div>
+            </div>
+
+            <div class="cardBox">
+                
+                <div class="card">
+                    <div>
+                        <div class="numbers">1042</div>
+                        <div class="cardName">Daily Views</div>
+                    </div>
+                    <div class="iconbox">
+                        <img src="icon/eye.png" height="30px">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">1022</div>
+                        <div class="cardName">Sales</div>
+                    </div>
+                    <div class="iconbox">
+                        <img src="icon/eye.png" height="30px">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">42</div>
+                        <div class="cardName">Comments</div>
+                    </div>
+                    <div class="iconbox">
+                        <img src="icon/eye.png" height="30px">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">$9999</div>
+                        <div class="cardName">Earning </div>
+                    </div>
+                    <div class="iconbox">
+                        <img src="icon/eye.png" height="30px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="details">
+                <div class="recentOrders">
+                    <div class="cardHeader">
+                        <h2>Recent Orders</h2>
+                        <a href="#" class="btn">View All</a>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Name</td>
+                                <td>Price</td>
+                                <td>Payment</td>
+                                <td>Status</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>S.S. L. Hingish</td>
+                                <td>$1200</td>
+                                <td>Paid</td>
+                                <td><spam class="status delivered">Deliveres</spam></td>
+                            </tr>
+                            <tr>
+                                <td>F. Braket</td>
+                                <td>$1000</td>
+                                <td>Due</td>
+                                <td><spam class="status pending">Pending</spam></td>
+                            </tr>
+                            <tr>
+                                <td>Othera</td>
+                                <td>$120</td>
+                                <td>Paid</td> 
+                                <td><spam class="status return">Return</spam></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="recentCustomers">
+                    <div class="cardHeader">
+                        <h2>Recent Customers</h2>
+                    </div>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td widht="60px"><div class="imgBx"><img src="icon/img.png"></div></td>
+                                <td><h4>Kd Code</h4></td>
+                            </tr>
+                            <tr>
+                                <td widht="60px"><div class="imgBx"><img src="icon/img.png"></div></td>
+                                <td><h4>Kd Code1</h4></td>
+                            </tr>
+                            <tr>
+                                <td widht="60px"><div class="imgBx"><img src="icon/img.png"></div></td>
+                                <td><h4>Kd Code2</h4></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+       
+        </div>
+    
+    </div>
+
+    <script>
+        function toggleMenu(){
+            let toggle=document.querySelector('.toggle');
+            let navigation=document.querySelector('.navigation');
+            let main=document.querySelector('.main');
+            toggle.classList.toggle('active');
+            navigation.classList.toggle('active'); 
+            main.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
