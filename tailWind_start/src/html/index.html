@@ -6,8 +6,27 @@
     <title>TaillWind CSS Level 1</title>
     <link rel="stylesheet" href="../output.css">
 </head>
-<body>
+<body class="m-4">
     <h1 class="font-bold text-3xl underline"> Your First Step to Learn tailwindcss</h1>
-    <iframe class="h-40"   src="https://tailwindcss.com/docs/installation"></iframe>
+    <!-- <iframe class="h-40"   src="https://tailwindcss.com/docs/installation"></iframe> -->
+
+    <h2>run with this command </h2>
+    <code>npx tailwindcss -i ./src/input.css -o ./src/output.css --watch</code>
+
+
+    <h3>Grid Layout with tialwind </h3>
+    <div class="grid sm:gap-4 grid-cols-12 m-4">
+        <div class="min-h-[100px] bg-orange-500 rounded shadow-xl sm:col-span-2 "></div>
+        <div class="min-h-[100px] bg-pink-500 rounded shadow-xl sm:col-span-8 "></div>
+        <div class="min-h-[100px] bg-red-500 rounded shadow-xl sm:col-span-2 "></div>
+    </div>
+
+    <h3>tailwinds direct work with mobile componets give instration for desktop give "sm:" use </h3>
+    <div class=" grid gap-4 sm:grid-cols-12 grid-cols-12 m-4">
+        <div class="min-h-[100px] rounded bg-orange-500 shadow-xl sm:col-span-2"></div>
+        <div class="min-h-[100px] rounded bg-pink-500 shadow-xl sm:col-span-8"></div>
+        <div class="min-h-[100px] rounded bg-red-500 shadow-xl sm:col-span-2"></div>        
+    </div>
+      
 </body>
 </html>
